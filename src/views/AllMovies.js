@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 // Service
 import { getFilms } from "../services/getFilms";
 //Components
-import { HeaderFilm } from "../components/HeaderFilm";
 import { ContentFilm } from "../components/ContentFilm";
 import { Preload } from "../components/Preload";
 import { ListMovies } from "../components/ListMovies";
@@ -62,7 +61,6 @@ export const AllMovies = () => {
 
   return (
     <>
-      <HeaderFilm />
       {isBusy && <Preload />}
       <ContentFilm>
         <div className="col-md-8 col-sm-12 col-xs-12">

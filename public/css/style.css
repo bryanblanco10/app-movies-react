@@ -3948,6 +3948,18 @@ textarea {
   background: #fff;
   border-color: #dd003f;
 }
+.margin-right {
+  margin-right: 10px;
+}
+.btn-header {
+  font-family: 'Dosis', sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: #dd003f;
+  width: 100%;
+}
 /* III. COMPONENT
 ***********************/
 .row {
