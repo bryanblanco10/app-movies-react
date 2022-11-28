@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export const HeaderFilm = () => {
   return (
@@ -13,7 +14,9 @@ export const HeaderFilm = () => {
             </ul>
             <ul className="breadcumb">
               <li className="margin-right">
-                <button className="btn-header">Inicio</button>
+                <Link to="/">
+                  <button className="btn-header">Inicio</button>
+                </Link>
               </li>
               <li>
                 <button className="btn-header">Login</button>

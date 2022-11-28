@@ -3959,6 +3959,7 @@ textarea {
   text-transform: uppercase;
   background: #dd003f;
   width: 100%;
+  cursor: pointer;
 }
 /* III. COMPONENT
 ***********************/

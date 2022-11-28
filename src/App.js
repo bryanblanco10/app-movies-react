@@ -1,4 +1,4 @@
-import "./assets/app.css"
+import "./assets/css/style.css"
 import {BrowserRouter, Routes, Route } from "react-router-dom";
 //Components
 import { HeaderFilm } from "./components/HeaderFilm";
@@ -11,7 +11,7 @@ function App() {
     <BrowserRouter>
       <HeaderFilm />
       <Routes>
-        <Route path="/home" element={<AllMovies />} />
+        <Route path="/" element={<AllMovies />} />
         <Route path="/detalle-pelicula/:id" element={<DetailMovie />} />
         <Route path="*" element={ <h4>Not found</h4> } />
       </Routes>

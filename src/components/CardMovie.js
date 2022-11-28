@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export const CardMovie = ({ movie }) => {
   return (
@@ -6,7 +7,7 @@ export const CardMovie = ({ movie }) => {
       <img src={movie.img} alt={movie.titulo + movie.fecha } />
       <div className="mv-item-infor">
         <h6>
-          <a href="moviesingle.html">{movie.titulo}</a>
+          <Link to={`/detalle-pelicula/${movie.id}`}>{movie.titulo}</Link>
         </h6>
         <p className="rate">
           <i className="ion-android-star"></i>
